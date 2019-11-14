@@ -5,7 +5,7 @@ All the configuration are in the file properties
 
 ## Description
 This Project shows the list of Products which are stored in the In-Memory mysql dataBase. Using the following endpoints, different operations can be achieved:
-- `/all` - This returns the list of products in the produit table which is created in mysql
+- `/listProducts` - This returns the list of products in the produit table which is created in mysql
 - `/ProduitParMC?mc=GG&page=0` - search at the specific page all products that contain the specific 'mc'
 - `/save?designation=BN144&prix=20.36` - Add new produit using the produit model. eg. { "reference": "1", "designation": "BN144", "prix": 20.36 }
 
