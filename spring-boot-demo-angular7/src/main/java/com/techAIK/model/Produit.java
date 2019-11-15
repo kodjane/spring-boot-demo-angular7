@@ -63,5 +63,4 @@ public class Produit {
 		return "Produit [reference=" + reference + ", designation=" + designation + ", prix=" + prix + ", quantite="
 				+ quantite + "]";
 	}
-	
 }
